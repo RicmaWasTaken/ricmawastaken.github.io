@@ -1,0 +1,62 @@
+body{
+	background-image:url('vibes.gif'); background-repeat:repeat;
+}
+.menu{
+	position:fixed;
+	top:0;
+	left:0;
+	background-color:black;
+	text-align:center;
+	height:80px;
+	width:100%;
+	padding-top:30px;
+	display:table;
+	z-index:4;
+}
+span{
+	display:table-cell;
+}
+a{
+	text-align:center;
+}
+#textdiv{
+	position:absolute;
+	top:200px;
+	text-align:center;
+	left:0;
+	right:0;	
+}
+#cat{
+	position:absolute;
+	text-align:center;
+	top:400px;
+	left:0;
+	right:0;
+}
+#catimg{
+	padding-left:115px;
+	width:400px;
+	height:272px;
+}
+a:hover{
+	opacity:.5;
+}
+/*.menu{
+	position:fixed;
+	top:0;
+	left:0;
+	background-color:black;
+	text-align:center;
+	height:80px;
+	width:100%;
+	opacity:.5;
+}
+.menuitems{
+	opacity:1;
+	z-index:4;
+}
+.menu a img{
+	display:inline-block;
+	width:40px;
+	height:40px;
+	opacity:1;*/

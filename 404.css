@@ -1,0 +1,38 @@
+body{
+	background-image:url("newbackrooms.jpg");
+	background-size:cover;
+	margin:0px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	}
+#textA{
+	color:black;
+	text-align:center;
+	display:inline;
+	z-index:4;
+	position:absolute;
+	left:0;
+	right:0;
+	margin-top:150px;
+	font-size:25px;
+	font-family:arialblack;
+}
+h1 span{
+	background-color:white;
+}
+.spanchoices{
+	background-color:white;
+}
+#choices{
+	color:black;
+	text-align:center;
+	display:inline;
+	z-index:4;
+	position:absolute;
+	left:0;
+	right:0;
+	margin-top:650px;
+	font-size:25px;
+	font-family:arialblack;
+}
+
