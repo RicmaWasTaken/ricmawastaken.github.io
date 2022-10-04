@@ -24,15 +24,12 @@ span a:hover{
 	top:300px;
 	margin:auto;
 	text-align:center;
+	padding-left:300px;
+	padding-right:300px;
 }
 .softwares ul{
 	text-align:center;
 }
 .softwares ul li{
-	display:inline;
-}
-#softwares2{
-	width:600px;
-	text-align:center;
 	display:inline;
 }
