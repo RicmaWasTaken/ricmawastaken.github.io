@@ -19,9 +19,19 @@ a{
 span a:hover{
 	opacity:.5;
 }
+.softwares{
+	position:absolute;
+	top:300px;
+	margin:auto;
+	text-align:center;
+}
 .softwares ul{
 	text-align:center;
 }
 .softwares ul li{
 	display:inline;
+}
+#softwares2{
+	width:600px;
+	text-align:center;
 }
