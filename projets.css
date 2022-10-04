@@ -16,6 +16,12 @@ span{
 a{
 	text-align:center;
 }
-a:hover{
+span a:hover{
 	opacity:.5;
+}
+.softwares ul{
+	text-align:center;
+}
+.softwares ul li{
+	display:inline;
 }
