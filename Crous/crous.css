@@ -1,0 +1,23 @@
+.menu{
+	position:fixed;
+	top:0;
+	left:0;
+	background-color:black;
+	text-align:center;
+	height:80px;
+	width:100%;
+	padding-top:30px;
+	display:table;
+	z-index:4;
+}
+.menu span{
+	display:table-cell;
+}
+.menu span a{
+	text-align:center;
+}
+.texte{
+	text-align:center;
+	margin-top:400px;
+	font-weight:40 bold;
+}
