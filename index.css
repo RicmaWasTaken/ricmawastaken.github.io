@@ -1,5 +1,5 @@
 body{
-	background-image:url('vibes.gif'); background-repeat:repeat;
+	background-image:url('gradientbackground.svg'); background-repeat:no-repeat;
 }
 .menu{
 	position:fixed;
