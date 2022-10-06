@@ -24,7 +24,8 @@ a{
 	top:200px;
 	text-align:center;
 	left:0;
-	right:0;	
+	right:0;
+	-webkit-text-stroke: 0.3px white;
 }
 #cat{
 	position:absolute;
