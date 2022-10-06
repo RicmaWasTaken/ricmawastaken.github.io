@@ -1,5 +1,5 @@
 body{
-	background-image:url('gradientbackground.svg'); background-repeat:no-repeat;
+	background-image:url('gradientbackground.svg'); background-repeat:no-repeat repeat;
 }
 .menu{
 	position:fixed;
