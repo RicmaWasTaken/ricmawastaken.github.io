@@ -32,7 +32,7 @@ a:hover{
 	-webkit-text-stroke: 0.1px white;
 	font-weight:20px;
 }
-#textdiv h2{
+#textdiv h1, h2{
 	color:white;
 }
 /*.menu{
