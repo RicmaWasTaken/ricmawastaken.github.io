@@ -26,14 +26,18 @@ a:hover{
 #textdiv{
 	position:absolute;
 	top:200px;
+	bottom:50px;
 	text-align:center;
 	left:0;
 	right:0;
 	-webkit-text-stroke: 0.1px white;
 	font-weight:20px;
 }
-#textdiv h1, h2{
+#textdiv h1,h2{
 	color:white;
+}
+h1,h2::selection{
+	background-color:black;
 }
 /*.menu{
 	position:fixed;
