@@ -36,7 +36,10 @@ a:hover{
 #textdiv h1,h2{
 	color:white;
 }
-h1,h2::selection{
+h1::selection{
+	background-color:black;
+}
+h2::selection{
 	background-color:black;
 }
 /*.menu{
