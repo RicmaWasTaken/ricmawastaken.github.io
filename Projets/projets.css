@@ -26,14 +26,15 @@ span a:hover{
 .softwares{
 	position:absolute;
 	top:300px;
-	margin:auto;
+	width:100%;
+	margin-left:50%;
 	text-align:center;
-	padding-left:300px;
-	padding-right:300px;
 }
 .softwares ul{
 	text-align:center;
+	padding-left:0px;
+	display:table;
 }
 .softwares ul li{
-	display:inline;
+	display:table-cell;
 }
