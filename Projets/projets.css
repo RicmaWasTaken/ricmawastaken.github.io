@@ -14,10 +14,10 @@ body{
 	display:table;
 	z-index:4;
 }
-span{
+.menu span{
 	display:table-cell;
 }
-a{
+.menu span a{
 	text-align:center;
 }
 span a:hover{
@@ -28,13 +28,13 @@ span a:hover{
 	top:300px;
 	width:100%;
 	margin-left:50%;
+	padding-left:300px;
+	padding-right:300px;
 	text-align:center;
-}
-.softwares ul{
-	text-align:center;
-	padding-left:0px;
 	display:table;
 }
-.softwares ul li{
+.softwares span{
+	text-align:center;
+	padding-left:0px;
 	display:table-cell;
 }
