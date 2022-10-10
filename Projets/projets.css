@@ -20,14 +20,13 @@ body{
 .menu span a{
 	text-align:center;
 }
-span a:hover{
+.menu .inactive a:hover{
 	opacity:.5;
 }
 .softwares{
 	position:absolute;
 	top:300px;
 	width:100%;
-	margin-left:50%;
 	padding-left:300px;
 	padding-right:300px;
 	text-align:center;
