@@ -66,6 +66,7 @@ a{
 }
 ul{
 	display:grid;
+	list-style:none;
 }
 li{
 	font-weight:40px;
