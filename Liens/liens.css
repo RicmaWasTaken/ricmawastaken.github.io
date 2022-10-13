@@ -1,6 +1,9 @@
+/*	background-image:url('../Media/gradientbackground.svg'); background-repeat:no-repeat repeat;*/
 body{
-	background-image:url('../Media/gradientbackground.svg'); background-repeat:no-repeat repeat;
+	background-image:linear-gradient(#ED4264, #FFEDBC);
 	overflow:hidden;
+	height:1080px;
+	width:100%;
 }
 .menu{
 	position:fixed;
@@ -25,11 +28,20 @@ a{
 }
 h1{
 	font-family:helvetica;
-	font-size:40;
+	font-size:40px;
 	color:white;
 	text-align:center;
-	padding-top:50px;
-	padding-bottom:50px;
+	margin-top:200px;
+	margin-bottom:80px
+}
+h1::selection{
+	background-color:black;
+}
+h1:hover{
+	color:black;
+}
+h1:hover::selection{
+	background-color:white;
 }
 #divA{
 	text-align:center;
@@ -67,6 +79,7 @@ a{
 ul{
 	display:grid;
 	list-style:none;
+	padding-left:0px;
 }
 li{
 	font-weight:40px;
