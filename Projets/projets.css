@@ -1,6 +1,8 @@
 body{
-	background-image:url('../Media/gradientbackground.svg'); background-repeat:no-repeat repeat;
+	background-image:linear-gradient(#ED4264, #FFEDBC);
 	overflow:hidden;
+	height:1080px;
+	width:100%;
 }
 .menu{
 	position:fixed;
