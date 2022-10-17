@@ -1,6 +1,8 @@
 body{
-	background-image:url('../Media/gradientbackground.svg'); background-repeat:no-repeat repeat;
+	background-image:linear-gradient(#ED4264, #FFEDBC);
 	overflow:hidden;
+	height:1080px;
+	width:100%;
 }
 .menu{
 	position:fixed;
@@ -22,11 +24,25 @@ body{
 }
 .texte{
 	text-align:center;
+	width:auto;
 	margin-top:400px;
+	padding-left:0px;
 }
-.texte p{
-	color:white;
+.texte li{
+	display:inline;
+	text-align:center;
 }
-.texte p::selection{
+.texte li a{
+	text-align:center;
+}
+.texte li::selection{
 	background-color:black;
+}
+.texte li:not(:last-child) {
+    margin-right:200px;
+}
+.texte li button{
+	border-radius:20px;
+	width:300px;
+	height:50px;
 }
