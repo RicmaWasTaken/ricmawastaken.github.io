@@ -1,6 +1,8 @@
 body{
-	background-image:url('../Media/gradientbackground.svg'); background-repeat:no-repeat repeat;
+	background-image:linear-gradient(#ED4264, #FFEDBC);
 	overflow:hidden;
+	height:1080px;
+	width:100%;
 }
 .menu{
 	position:fixed;
@@ -33,14 +35,17 @@ a:hover{
 	-webkit-text-stroke: 0.1px white;
 	font-weight:20px;
 }
-#textdiv h1,h2{
+#textdiv h1,p{
 	color:white;
 }
 h1::selection{
 	background-color:black;
 }
-h2::selection{
+#textdiv p::selection{
 	background-color:black;
+}
+#textdiv p:not(:last-child){
+	margin-bottom:20px;
 }
 /*.menu{
 	position:fixed;
